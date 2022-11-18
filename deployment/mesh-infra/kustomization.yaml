@@ -3,11 +3,11 @@ kind: Kustomization
 
 resources:
 - argocd/
-- grafana/
-- jaeger/
-- keycloak/
-- kiali/
-- prometheus/
+# - grafana/
+# - jaeger/
+# - keycloak/
+# - kiali/
+# - prometheus/
 - routing/
 - security/
 - storage/

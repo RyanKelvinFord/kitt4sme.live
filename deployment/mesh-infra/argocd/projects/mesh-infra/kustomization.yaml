@@ -4,11 +4,11 @@ kind: Kustomization
 resources:
 - project.yaml
 - argocd
-- grafana
-- jaeger
-- keycloak
-- kiali
-- prometheus
+# - grafana
+# - jaeger
+# - keycloak
+# - kiali
+# - prometheus
 - routing
 - security
 - storage

@@ -3,11 +3,11 @@ kind: Kustomization
 
 resources:
 - cratedb/
-- grafana/
-- json-agent/
+# - grafana/
+# - json-agent/
 - mongodb/
-- opcua-agent-supsi/
+# - opcua-agent-supsi/
 - orion/
-- postgres/
+# - postgres/
 - quantumleap/
-- ul-agent/
+# - ul-agent/

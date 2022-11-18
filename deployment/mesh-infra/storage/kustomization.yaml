@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - crate.yaml
-- keycloak.yaml
+# - keycloak.yaml
 - mongo.yaml
-- mosquitto.yaml
-- postgres.yaml
+# - mosquitto.yaml
+# - postgres.yaml

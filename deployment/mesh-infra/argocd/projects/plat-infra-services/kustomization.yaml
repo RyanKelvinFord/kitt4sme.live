@@ -4,12 +4,12 @@ kind: Kustomization
 resources:
 - project.yaml
 - cratedb
-- grafana
-- json-agent
+# - grafana
+# - json-agent
 - mongodb
-- mqtt
-- opcua-agent-supsi
+# - mqtt
+# - opcua-agent-supsi
 - orion
-- postgres
+# - postgres
 - quantumleap
-- ul-agent
+# - ul-agent
