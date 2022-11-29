@@ -3,14 +3,15 @@ kind: Kustomization
 
 resources:
 - argocd/
-- grafana/
-- jaeger/
-- keycloak/
-- kiali/
-- prometheus/
+#- grafana/
+#- jaeger/
+#- keycloak/
+#- kiali/
+#- prometheus/
 - routing/
 - security/
 - storage/
+
 #
 # Comment back in the following to customise your own Kitt4sme live instance.
 # Edit `_replacements_/custom-urls.yaml` to specify your own settings.
